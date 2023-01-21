@@ -110,7 +110,7 @@ export default function Home() {
         </Collapse>
       </Card>
       <Button variant="contained" onClick={() => router.push('/page-a')} >主应用页面A</Button>
-      <Button variant="contained" onClick={() => router.push('/sub-umi-app')} >子应用首页</Button>
+      <Button variant="contained" onClick={() => router.push('/sub-app')} >子应用管理</Button> 
     </Stack>
   )
 }
